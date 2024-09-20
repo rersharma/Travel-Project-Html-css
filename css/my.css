@@ -43,3 +43,38 @@
      justify-content:space-between;
      align-items: center;
 }
+.latestoffer
+{
+     background: linear-gradient(to left, #FDE910, #87CEEB);
+}
+
+.Header_after
+{
+     height:400px;
+     display: flex;
+}
+.login_div
+{
+      width:25%;
+      height:100%;
+     
+}
+.gellery_div
+{
+     width:50%;
+     height:100%;
+}
+.offer_div
+{
+     width:30%;
+     height:100%;
+     border: 1px solid gray;
+}
+.enquiry
+{
+       text-align: center;
+       background-color:#FDE910;
+       color:black;
+       padding: 10px;
+       margin-top: 0px;
+}
