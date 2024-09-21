@@ -50,15 +50,17 @@
 
 .Header_after
 {
-     height:400px;
+     height:448px;
      display: flex;
+
 }
 .login_div
 {
       width:25%;
       height:100%;
-     
+     background-color: rgba(255, 249, 196,0.8);
 }
+
 .gellery_div
 {
      width:50%;
@@ -75,6 +77,60 @@
        text-align: center;
        background-color:#FDE910;
        color:black;
-       padding: 10px;
+       padding: 4px;
        margin-top: 0px;
+}
+.form_div
+{
+     display: flex;
+     justify-content:space-around;
+     align-items: center;
+     margin-bottom:30px;
+}
+.myfield
+{
+      border: none;
+      height:40px;
+      color:rgb(68,56,56);
+      font-weight: bold;
+      background-color:#f0f0f0;
+      padding:8px;
+      transition:background-color 0.8s ease , box-shodow 0.8s ease;
+}
+.mysubmit
+{
+
+ background-color:rgb(68,56,56);
+   padding:8px;
+   text-decoration: none;
+   color:white;
+   cursor: pointer;
+   border: none;
+   width:200px;
+}
+.mysubmit:hover
+{
+    background-color: black;
+    color:white;
+}
+.myfield:hover{
+     outline: none;
+     background-color: #e0e0e0;
+     box-shadow: 0 0 5px rgba(0, 0,0,0.2);
+}
+.mymessage
+{
+     height: 60px;
+     background-color:#f0f0f0;
+     border-radius:8px;
+     color:rgb(68,56,56);
+     font-weight: bold;
+     padding:8px;
+     transition:background-color 0.8s ease , box-shodow 0.8s ease;
+}
+.mymessage:focus
+{
+    outline: none;
+    background-color: #e0e0e0;
+    box-shadow: 0 0 5px rgba(0, 0,0,0.2);
 }
