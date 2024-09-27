@@ -11,9 +11,36 @@
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
     <script type="text/javascript" src="engine1/jquery.js"></script>
 
+    <script>
+          function geetika()
+          {
+                document.getElementById("muskaan").style.display='block';
+          }
+          function close_div()
+          {
+            document.getElementById("muskaan").style.display='none';
+          }
+    </script>
+
 </head>
 
 <body>
+
+<!-------Review Pop Div-->
+ 
+<div class="modal" id="muskaan">
+ <div class="review-content">
+    <span class="close_button"  onclick="close_div()">&times;</span>
+       <h2>Review us</h2>
+       <p>Leave your Review For Our Servies</p>
+       <textarea cols="30" rows="10"> </textarea>
+ </div>
+</div>
+
+<!--Review Pop Up Div End-->
+
+
+
     <header>
         <div class="conatct_div">
             <div>
@@ -145,8 +172,9 @@
     </div>
 
     <div class="media_content">
-        <div class="media" style="background-image: url('/images/review.png');background-size:contain" >
-
+        <div class="media">
+        <img src="images/review.png" class="review_image"/>
+        <button class="review_button" onclick="geetika()">Review Now</button>
         </div>
         <div class="media">
             <iframe style="width: 100%; height:100%;" src="https://www.youtube.com/embed/9yXiZuRFALs?si=qibgDVEitKdDdUYU"
